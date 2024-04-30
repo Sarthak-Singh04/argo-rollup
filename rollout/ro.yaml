@@ -4,7 +4,7 @@ metadata:
   name: webapp
   namespace: webapp
 spec:
-  replicas: 10
+  replicas: 5
   selector:
     matchLabels:
       app: web
@@ -27,6 +27,4 @@ spec:
       - setWeight: 50
       - pause:
           duration: 30s
-      - setWeight: 80
-      - pause:
-          duration: 30s
+   
