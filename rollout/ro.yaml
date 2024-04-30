@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: sarthak515/web-app:v1
+        image: sarthak515/web-app:v2
         ports:
         - containerPort: 3000
   strategy:

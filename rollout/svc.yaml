@@ -4,6 +4,7 @@ metadata:
   name: webapp-svc
   namespace: webapp
 spec:
+  type: LoadBalancer
   selector:
     app: web
   ports:
